@@ -1,0 +1,107 @@
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+
+.column.side{
+    margin: 170px 0px;
+    width: 20%;
+    float: left;
+}
+
+.column.middle{
+    margin: 170px 0px;
+    width: 80%;
+    float: left;
+}
+
+* {
+    padding: 0;
+    margin: 0; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul {
+    list-style: none;
+    background: #22438C;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 25px 30px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 130%;
+    background: #22438C;
+    position: absolute;
+    display: none;
+}
+
+ul li a:hover {
+    background: #112C66;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+    text-align: center;
+}
+
+h2{
+    background-color: #acffda;
+    margin-top: 20px; /* Add more spacing above the heading */
+    padding-top: 10px;    
+}
+
+h3{
+    background-color: #5bffb5;
+    margin-top: 20px; /* Add more spacing above the heading */
+    padding-top: 10px;    
+    font-size: larger;
+}
+
+p{
+    background-color: #FFF;
+}
+
+.rounded {
+    background-color: #d8f5ff; /* Light gray background */
+    border-radius: 10px; /* Rounding the corners */
+    padding: 15px; /* Adding some space inside the element */
+    max-width: 600px; /* Optional: limit width */
+    margin: 10px auto; /* Optional: center the paragraph */
+    text-align: justify; /* Makes the text spread evenly from left to right */
+}
+
+.gallery-aus{
+    margin: 0px;
+    width: 280px;
+    height: 415px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.spaced-image{
+    margin: 10px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
